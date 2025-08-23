@@ -329,3 +329,4 @@ D:\OneDrive\Desktop\Contact manager application\ContactManager\obj\Debug\net9.0\
 D:\OneDrive\Desktop\Contact manager application\ContactManager\obj\Debug\net9.0\ContactManager.pdb
 D:\OneDrive\Desktop\Contact manager application\ContactManager\obj\Debug\net9.0\ContactManager.genruntimeconfig.cache
 D:\OneDrive\Desktop\Contact manager application\ContactManager\obj\Debug\net9.0\ref\ContactManager.dll
+D:\OneDrive\Desktop\Contact manager application\ContactManager\obj\Debug\net9.0\ContactManager.sourcelink.json
