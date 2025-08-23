@@ -1,0 +1,20 @@
+@model ContactManager.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Details";
+}
+
+<h2>Contact Details</h2>
+
+<div>
+    <p><strong>Full Name:</strong> @Model.FullName</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Phone:</strong> @Model.Phone</p>
+    <p><strong>Address:</strong> @Model.Address</p>
+    <p><strong>Notes:</strong> @Model.Notes</p>
+    <p><strong>Created:</strong> @Model.CreatedAt</p>
+    <p><strong>Updated:</strong> @Model.UpdatedAt</p>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
